@@ -1,5 +1,5 @@
 # Generate a ssh key.
-ssh-keygen -t rsa -b 4096 -C "lynetcha@stanford.edu"
+ssh-keygen -t rsa 
 
 # Neovim vim-plug install
 curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
