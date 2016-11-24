@@ -1,6 +1,6 @@
 # Ubuntu and MAC OS X Development Environment Setup
 
-Setup my personal ubuntu configuration.
+Setup my personal ubuntu and MAC OS X configuration.
 
 ## Instruction
 
