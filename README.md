@@ -1,4 +1,4 @@
-# Ubuntu and MAC OS X evelopment Environment Setup
+# Ubuntu and MAC OS X Development Environment Setup
 
 Setup my personal ubuntu configuration.
 
