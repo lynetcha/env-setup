@@ -15,6 +15,7 @@ ln -s "$(pwd -P)"/config/.nvimrc ~/.config/nvim/init.vim
 ln -s "$(pwd -P)"/config/.nvimrc ~/.nvimrc  # simpler path to find the file quickly
 ln -s "$(pwd -P)"/config/.tmux.conf ~/.tmux.conf  
 ln -s "$(pwd -P)"/config/.gitconfig ~/.gitconfig
+ln -s $HOME/.config/nvim/plugged/vimtemplates/templates $HOME/.vim/templates
 
 # Set up my profile
 git config --global user.email $1
