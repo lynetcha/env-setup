@@ -1,4 +1,4 @@
-# Ubuntu Development Environment Setup
+# Ubuntu and MAC OS X evelopment Environment Setup
 
 Setup my personal ubuntu configuration.
 
@@ -7,7 +7,7 @@ Setup my personal ubuntu configuration.
 Replace "your@email.com" and "Your name" with appropriate strings
 
 ```
-git clone --recursive https://github.com/chrischoy/env-setup.git
+git clone --recursive https://github.com/lynetcha/env-setup.git
 cd env-setting
 ./install-requirements.sh
 ./setup-dev-environment.sh "your@email.com" "Your name"
