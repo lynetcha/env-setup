@@ -19,6 +19,9 @@ $ sudo pip install --upgrade pip
 brew install neovim/neovim/neovim
 brew install tmux
 
+#IPython Debugger
+sudo pip install ipdb
+
 # Install python support for neovim
 # See https://neovim.io/doc/user/provider.html#provider-python
 sudo pip install neovim
