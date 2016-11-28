@@ -1,6 +1,6 @@
-# Generate a ssh key.
-ssh-keygen -t rsa 4096 -C "$1"
-ssh-add ~/.ssh/id_rsa
+# Generate a ssh key if not present.
+#ssh-keygen -t rsa -b 4096 -C "$1"
+#ssh-add ~/.ssh/id_rsa
 
 
 # Neovim vim-plug install
@@ -31,7 +31,7 @@ curl -fsSL -o $ZSH_CUSTOM/themes/capri7.zsh-theme https://gist.githubusercontent
 # Powerline fonts
 # Once installed, manually set the terminal font to be one of the powerline fonts
 git clone https://github.com/powerline/fonts
-sh fonts/install.sh
+sh fonts/install.sh 
 
 # Follow the steps in the URL[1] to remove the show desktop icon
 # [1] http://askubuntu.com/questions/167263/how-can-i-remove-show-desktop-from-the-alt-tab-application-switcher
